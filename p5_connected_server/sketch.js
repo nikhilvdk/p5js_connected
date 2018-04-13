@@ -51,12 +51,6 @@ var txt19;
 var txt22;
 var txt28;
 
-var p1;
-var p2;
-var p3;
-var p4;
-
-
 
 // var radius = pagey/2;
 // var angle = 0;
@@ -72,7 +66,6 @@ function preload(){
 	sun.setLoop(true);
 	sunimg = loadImage('data/sunart.png');
 	curtain = loadImage('data/curtain.png');
-	// peace = loadImage('data/peace.png');
 }
 
 function setup() {
@@ -89,12 +82,6 @@ function setup() {
 
 
 	sunobject = new sunobj(0,400);
-
-	// p1 = new peace(random(0,pagex/2-250),random(0,pagey),random(-5,5));
-	// p2 = new peace(random(0,pagex/2-250),random(0,pagey),random(-5,5));
-	// p3 = new peace(random(pagex/2+250,pagex),random(0,pagey),random(-5,5));
-	// p4 = new peace(random(pagex/2+250,pagex),random(0,pagey),random(-5,5));
-
 
 }
 
@@ -497,32 +484,6 @@ function RGBtoHSB(red, green,blue){
 	return array;
 }
 
-// class peace{
-//     constructor(tempX,tempY){
-//         this.x=tempX;
-//         this.y=tempY;
-// 	}
-
-// 	display(){
-// 		push();
-// 		noFill();
-// 		stroke(compcolor);
-// 		strokeWeight(6);
-// 		translate(this.x,this.y);
-// 		ellipse(0,0,100,100);
-// 		line(0,0,35,35)
-// 		line(0,0,-35,35)
-// 		line(0,-50,0,50);
-// 		pop();
-// 	}
-	
-// 	move(){
-// 		this.x = this.x + random(-8, 8);
-// 		this.y = this.y + random(-10,10);
-
-// 	}
-
-// }
 
 function peacesign(px,py){
 	push();
