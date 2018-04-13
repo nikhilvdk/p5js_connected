@@ -156,7 +156,7 @@ function draw() {
 	}
 	
 	push();
-	translate(pagex/2-capx/2, 420);
+	translate(pagex/2-capx/2, 420+30);
 	noFill();
 	strokeWeight(3);
 	stroke('black');
