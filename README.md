@@ -20,11 +20,11 @@ https://github.com/genekogan/p5js-osc
 
 Screenshots:
 
-![closing|50%](/images/closing.jpg)
+```
+<img src="/images/green.jpg" width="20">
+<img src="/images/herecomes.jpg" width="20">
+<img src="/images/red.jpg" width="20">
+<img src="/images/closing.jpg" width="20">
 
-![green|50%](/images/green.jpg)
-
-![herecomes|50%](/images/herecomes.jpg)
-
-![red|50%](/images/red.jpg)
+```
 
