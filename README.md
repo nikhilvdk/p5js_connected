@@ -1,4 +1,4 @@
-<u>Connected-Sketch with p5js, FaceOSC</u>
+## Here Comes the Sun:  Connected-Sketch with p5js, FaceOSC
 
 Note: Requires download and Node.js server in backend to run in conjunction with FaceOSC application.
 
@@ -8,7 +8,7 @@ Enjoy interacting with the Beatles' famous song using your face and the environm
 
 
 
-### <u>Features</u>
+## <u>Features</u>
 
 ##### Color tracking, mouth tracking and eyebrow tracking
 
@@ -18,20 +18,21 @@ Enjoy interacting with the Beatles' famous song using your face and the environm
 - Retro glasses track your eyes.
 - As you open your mouth, the song plays and lyrics float from your tracked mouth.
 - As the song progresses, the "nighttime" background becomes lighter as the sun rises, and eventually becomes blue.
+- If you obscure your face, or move away from the webcam, the curtains will close on your performance.
 
-### <u>Screenshots</u>:
+## <u>Screenshots</u>:
 
-<img src="p5_connected_client/images/green.jpg" width="500">
+<img src="p5_connected_client/images/green.jpg" width="700">
 
-<img src="p5_connected_client/images/herecomes.jpg" width="500">
+<img src="p5_connected_client/images/herecomes.jpg" width="700">
 
-<img src="p5_connected_client/images/red.jpg" width="500">
+<img src="p5_connected_client/images/red.jpg" width="700">
 
-<img src="p5_connected_client/images/closing.jpg" width="500">
+<img src="p5_connected_client/images/closing.jpg" width="700">
 
 
 
-### <u>Credits:</u>
+## <u>Credits:</u>
 
 https://github.com/genekogan/p5js-osc
 
